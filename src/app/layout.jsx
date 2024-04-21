@@ -14,13 +14,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
 
-        <header className="flex justify-start gap-10 flex-col items-center p-5 absolute top-0 left-0 h-full z-10 bg-black">
-          <img className="w-10" src="https://previews.123rf.com/images/sansakphoto/sansakphoto2304/sansakphoto230401459/203758987-astronauta-en-el-espacio-ultraterrestre-ilustraci%C3%B3n-para-su-dise%C3%B1o.jpg" alt="" />
+        <header className="flex justify-start gap-16 flex-col items-center p-5 absolute top-0 left-0 h-full z-10">
+          <img className="w-10" src="/public/logo.png" alt="" />
           <nav className="flex">
-            <ul className="flex flex-col gap-5 justify-center items-center">
-              <li><Link href="cursehtml">cursehtml</Link></li>
-              <li><Link href="cursecss">cursecss</Link></li>
-              <li><Link href="cursejs">cursejs</Link></li>
+            <ul className="flex flex-col gap-6 justify-center items-start font-bold">
+              <li><Link href="#">cursehtml</Link></li>
+              <li><Link href="#">cursecss</Link></li>
+              <li><Link href="#">cursejs</Link></li>
             </ul>
           </nav>
         </header>
