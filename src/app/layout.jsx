@@ -18,9 +18,9 @@ export default function RootLayout({ children }) {
           <img className="w-10" src="/public/logo.png" alt="" />
           <nav className="flex">
             <ul className="flex flex-col gap-6 justify-center items-start font-bold">
-              <li><Link href="#">cursehtml</Link></li>
-              <li><Link href="#">cursecss</Link></li>
-              <li><Link href="#">cursejs</Link></li>
+              <li><Link href="#" className="text-white font-normal text-sm" >Home</Link></li>
+              <li><Link href="#" className="text-white font-normal text-sm" >Compartir</Link></li>
+              <li><Link href="#" className="text-white font-normal text-sm" >Cerrar Secion</Link></li>
             </ul>
           </nav>
         </header>

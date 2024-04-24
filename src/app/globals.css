@@ -30,7 +30,8 @@ body {
     to bottom, transparent, 
     rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb)); */
-    background: #f5f5f5;
+    
+    background-image: linear-gradient(to left top, #121212, #121212, #121212, #111111, #111111);
 }
 
 @layer utilities {

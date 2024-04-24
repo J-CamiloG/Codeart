@@ -8,10 +8,12 @@ export default function sectionhtml(params) {
                     <Htmlicon width="4em" height="5em" />
                     <h2 className="text-5xl font-bold text-orange-600">HTML5</h2>
                 </section>
-
-                <section>
-                    <div className="flex justify-center items-start flex-col gap-5">
-                        <h3 className="font-bold text-orange-600">Que es Html ?</h3>
+                <article>
+                    <h2 className="text-white text-xl font-bold">Introducion</h2>
+                </article>
+                {/* <section>
+                    <article className="flex justify-center items-start flex-col gap-2 w-10/12 ">
+                        <h3 className="font-bold text-xl text-orange-600">Que es Html ?</h3>
                         <p>
                             <span>HTML</span> es el lenguaje utilizado para crear páginas web. Es como el
                             esqueleto de una página, define la estructura básica y organiza el
@@ -19,9 +21,10 @@ export default function sectionhtml(params) {
                             contenido, como encabezados, párrafos, imágenes, etc. Es el primer
                             paso para aprender a crear páginas web.
                         </p>
-                        
-                    </div>
-                </section>
+
+                        <img src="" alt="" />
+                    </article>
+                </section> */}
             </main>
         </>
     );
