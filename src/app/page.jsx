@@ -9,7 +9,6 @@ import Gmailicon from "./components/Gmailicon"
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-start p-44 gap-40">
-
       <section className="flex-col flex justify-center gap-5 w-full">
         <h2 className="text-6xl font-bold text-white"><span className="text-purple-500">C</span>ode<span className="text-purple-500">A</span>rt</h2>
         <p className="text-white">Curso para aprender paso a paso programacion. 100% gratis y práctico. Desde cero.</p>

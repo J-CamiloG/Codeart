@@ -16,16 +16,33 @@ export default function sectionhtml(params) {
                 stateDisponible= {<Buttondisponible text='Disponible'/>} 
                 conocerMas= {<Buttons text='conocer mas'/>}
             />
-
             <Secionescontenido
-                title='Primeros pasos'
+                title='Ipervinculos'
                 description='estos son los primeros pasos de nuestra maqutacion' 
                 stateDisponible= {<Buttondisponible text='Disponible'/>} 
                 conocerMas= {<Buttons text='conocer mas'/>}
             />
             
             <Secionescontenido
-                title='Maquetacion'
+                title='Multimedia'
+                description='proximamente...' 
+                stateDisponible= {<Buttondisponible text='No Disponible'/>} 
+                conocerMas= {<Buttons text='proximamente'/>}
+            />
+            <Secionescontenido
+                title='Semantica'
+                description='proximamente...' 
+                stateDisponible= {<Buttondisponible text='No Disponible'/>} 
+                conocerMas= {<Buttons text='proximamente'/>}
+            />
+            <Secionescontenido
+                title='tablas y listas'
+                description='proximamente...' 
+                stateDisponible= {<Buttondisponible text='No Disponible'/>} 
+                conocerMas= {<Buttons text='proximamente'/>}
+            />
+            <Secionescontenido
+                title='Formularios'
                 description='proximamente...' 
                 stateDisponible= {<Buttondisponible text='No Disponible'/>} 
                 conocerMas= {<Buttons text='proximamente'/>}
