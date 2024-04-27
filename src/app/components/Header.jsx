@@ -2,12 +2,11 @@ import Link from "next/link";
 
 export default function Header() {
     return(
-        <header className="bg-gray-700 fixed w-full" >
-            <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+        <header className=" border-purple-500 dark:bg-gray-800  fixed w-full" >
+            <nav className="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8">
                 <section className="flex lg:flex-1 ">
-                    <Link href="/" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Your Company</span>
-                        CodeArt
+                    <Link href="/" className="text-3xl text-white font-extrabold">
+                        C
                     </Link>
                 </section>
                 <section className="flex lg:hidden">
