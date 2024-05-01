@@ -5,6 +5,7 @@ import Link from "next/link";
 import Buttons from "./components/buttons"
 import Githubicon from "./components/Githubicon"
 import Gmailicon from "./components/Gmailicon"
+import Bootstrapicon from "./components/Bootstrapicon"
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="flex flex-col justify-center items-start  w-full gap-10">
+      <section className="flex-col justify-center items-start  w-full gap-10">
         <article className="flex  gap-20  w-full flex-row">
           <Link href="/cursehtml" className="p-5 w-60 justify-center flex flex-col rounded-xl items-center bg-white border border-gray-200  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
               <HtmlIcon className="" width="3em" height="4em"></HtmlIcon>
@@ -40,6 +41,14 @@ export default function Home() {
               <Jsicon className="" width="3em" height="4em"></Jsicon>
               <div className="border-b-2 border-purple-500 flex flex-col items-center justify-between p-4 leading-normal">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">JavaScript</h5>
+                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">high-level programming language</p>
+              </div>
+          </Link>
+
+          <Link href="/cursebootstrap" className="p-5 w-60 justify-center flex flex-col rounded-xl items-center bg-white border border-gray-200  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+              <Bootstrapicon className="" width="3em" height="4em"></Bootstrapicon>
+              <div className="border-b-2 border-purple-500 flex flex-col items-center justify-between p-4 leading-normal">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bootstrap</h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">high-level programming language</p>
               </div>
           </Link>

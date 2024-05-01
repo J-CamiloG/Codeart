@@ -10,7 +10,7 @@ export default function sectioncss(params) {
                 <Cssicon width="4em" height="5em" />
                 <h2 className="text-5xl font-bold text-blue-600">CSS</h2>
             </article>
-            <Secionescontenido
+            {/* <Secionescontenido
                 title='Introducion'
                 description='el mejor curso de la historia' 
                 stateDisponible= {<Buttondisponible text='Disponible'/>} 
@@ -70,7 +70,7 @@ export default function sectioncss(params) {
                 description='proximamente...' 
                 stateDisponible= {<Buttondisponible text='No Disponible'/>} 
                 conocerMas= {<Buttons text='proximamente'/>}
-            />
+            /> */}
         </main>
     );
 }

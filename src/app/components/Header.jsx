@@ -116,7 +116,7 @@ export default function Header() {
                                 </div>
                             </div> */}
                         </div>
-                        <Link href="#" class="text-sm font-semibold leading-6 text-white">Nosotros</Link>
+                        <Link href="/nosotros" class="text-sm font-semibold leading-6 text-white">Nosotros</Link>
                         <Link href="#" class="text-sm font-semibold leading-6 text-white">Marketplace</Link>
                         <Link href="#" class="text-sm font-semibold leading-6 text-white">Company</Link>
                     </article>

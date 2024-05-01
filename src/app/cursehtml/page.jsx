@@ -10,7 +10,7 @@ export default function sectionhtml(params) {
                 <Htmlicon width="4em" height="5em" />
                 <h2 className="text-5xl font-bold text-orange-600">HTML5</h2>
             </article>
-            <Secionescontenido
+            {/* <Secionescontenido
                 title='Introducion'
                 description='el mejor curso de la historia' 
                 stateDisponible= {<Buttondisponible text='Disponible'/>} 
@@ -46,7 +46,7 @@ export default function sectionhtml(params) {
                 description='proximamente...' 
                 stateDisponible= {<Buttondisponible text='No Disponible'/>} 
                 conocerMas= {<Buttons text='proximamente'/>}
-            />
+            /> */}
         </main>
     );
 }
